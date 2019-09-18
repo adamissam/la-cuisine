@@ -7,9 +7,27 @@ body{
 *{
     margin:0px;
     padding:0px;
-    /*border: 2px solid red;*/
+    border: 1px solid red;
 
 }
+#carte{
+    background-image: url("image/carte-du-monde.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+}
+.carte-x{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.carte-1{
+    display: block;
+    left: 500px;
+    background-color: rgba(61, 58, 58, 0.527);
+}
+
 li{
     font-size: 1.2em;
 }
