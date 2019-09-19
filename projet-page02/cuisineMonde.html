@@ -4,33 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cuisineMonde.css">
     <title>Restaurant du monde</title>
 </head>
 <body>
-    <nav class="nav-bar">
+    <!--<nav class="nav-bar"> 
         <ul>
             <li>Recette du Monde</li>
             <li>Specialité</li>
             <li>Recette du Futur</li>
         </ul>
-    </nav>
+    </nav> -->
+    <div>
+        <nav class="nav-container">
+            <ul id="ul-cards">
+                <li><a href="homePage.html">Accueil</a></li>
+                <li><a href="WildCuisine.html">Wild cuisine</a></li>
+                <li><a href="#">Cuisine du monde</a></li>
+                <li><a href="cuisineFutur.html">Cuisine du futur?</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
         <div id="carte">
             <!--<img src="image/carte-du-monde.jpg" alt="carte-du-monde">-->
-            <a href="#"><div class="carte-1 carte-x"></div></a>
-            <a href="#"><div class="carte-2 carte-x"></div></a>
-            <a href="#"><div class="carte-3 carte-x"></div></a>
-            <a href="#"><div class="carte-4 carte-x"></div></a>
-            <a href="#"><div class="carte-5 carte-x"></div></a>
+            <a href="#suchi"><div class="carte-1 carte-x"></div></a>
+            <a href="#France"><div class="carte-2 carte-x"></div></a>
+            <a href="#Hongrois"><div class="carte-3 carte-x"></div></a>
+            <a href="#amerique"><div class="carte-4 carte-x"></div></a>
+            <a href="#brezil"><div class="carte-5 carte-x"></div></a>
         </div>
-       <!-- <h2>Japon: Recette de SOUSHI</h2>
+        <h2>Japon: Recette de SUSHI</h2>
         <div class=contenaire>
-            <div class="init">
-                <img src="image/sushi.jpg" alt="soushi">
-                <div class="ingrediant">
+            <div class="init" id="suchi">
+                <img src="./image/sushi.jpg" alt="sushi">
+                <div class="Ingredients">
                     <ul>
-                        <li>Ingrediant:</li>
+                        <li>Ingredients:</li>
                         <li> Riz à grain court</li>
                         <li>25 cl de vinaigre de riz</li>
                         <li>2 cuillères à soupe de sucre</li>
@@ -82,9 +92,9 @@
             <div>
                 <div class="init">
                     <img src="image/nouille-saute-poulet.jpg" alt="nouilles">
-                    <div class="ingrediant">
+                    <div class="Ingredients">
                         <ul>
-                        <li>Ingrediant :</li>
+                        <li>Ingredients :</li>
                         <li>Pour vos nouilles sautées au poulet:</li>
                         <li>125 g Nouilles chinoises aux oeufs</li>
                         <li>2 Carottes taillées en bâtonnets</li>
@@ -120,11 +130,11 @@
         <div>
             <div class="contenaire">
                 
-                <div class="init">
+                <div class="init" id="Hongrois">
                     <img src="image/goulash.jpg" alt="goulash">
-                    <div class="ingrediant">
+                    <div class="Ingredients">
                         <ul>
-                            <li>ingrediant:</li>
+                            <li>Ingredients:</li>
                             <li>1 kg de viande de boeuf (paleron, macreuse, gîte)</li>
                             <li>50G de margarine</li>
                             <li>2 Poivrons ( vert & rouge)</li>
@@ -173,12 +183,12 @@
         </div>
         <h2>France: bouillabaisse</h2>
         <div class="contenaire">
-            <div class="init-x">
+            <div class="init-x" id="France">
                 <img src="image/bouillabaisse.jpg" alt="bouillabaisse">
-                <div class="ingrediant-x">
+                <div class="Ingredients-x">
                     <div>
                         <ul>
-                            <li>ingrediant:</li>
+                            <li>Ingredients:</li>
                             <li>2 foie(s)</li>
                             <li>2 parure(s) (réservé(s) au poissonnier)</li>
                             <li>5 belle(s) tomate(s) mûre(s)</li>
@@ -199,7 +209,7 @@
                             <li>1 bulbe(s) de fenouil</li>
                         </ul>
                     </div>
-                    <div class="ingrediant-x02">
+                    <div class="Ingredients-x02">
                         <ul>
                             <li>1 piment(s) rouge(s)</li>
                             <li>5 brin(s) de persil plat</li>
@@ -253,13 +263,13 @@
                 
             </div>
         </div>
-        <h2>Amerique: steck frite</h2>
+        <h2>Amérique: stecak frites</h2>
         <div class="contenaire">
-            <div class="init">
+            <div class="init" id="amerique">
                 <img src="image/hambergeur.jpg" alt="hamburger">
-                <div class="ingrediant">
+                <div class="Ingredients">
                     <ul>
-                        <li>Ingrediant: </li>
+                        <li>Ingredients: </li>
                         <li>2 pains spécial hamburger de grande taille</li>
                         <li>2 steaks hachés</li>
                         <li>1 oignon</li>
@@ -289,13 +299,13 @@
                 </div>
             </div>   
         </div>
-        <h2>Japon: Recette de SOUSHI</h2>
+        <h2>Brezil: Feijoada</h2>
         <div class="contenaire">
-            <div class="init">
+            <div class="init" id="brezil">
                 <img src="image/Feijoada-Brazilian.jpg" alt="soushi">
-                <div class="ingrediant">
+                <div class="Ingredients">
                     <ul>
-                        <li>Ingrediant:</li>
+                        <li>Ingredients:</li>
                         <li>1kg de haricots noirs secs (trempés pendant la nuit) *</li>
                         <li>1 cuillère à soupe d'huile d'olive</li>
                         <li> 4 onces de bacon (sans la couenne), coupé en dés</li>
@@ -315,7 +325,7 @@
                 </div>
             </div>
             <h3>Recette:</h3>
-            <div class="recette">
+            <div class="recette-y">
                 
                     <div>
                         <ol>
@@ -336,7 +346,7 @@
                         </ol>
                     </div>
             </div>
-        </div> -->
+        </div> 
     </main>
 </body>
 </html>
