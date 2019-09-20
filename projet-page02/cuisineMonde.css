@@ -7,7 +7,6 @@ body{
 *{
     margin:0px;
     padding:0px;
-
 }
 .nav-container{
     display: flex;
@@ -33,12 +32,20 @@ body{
     color:black;
 }
 #carte{
-    background-image: url("https://www.ledindon.com/photos/8819/zoom-8819-04.jpg");
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: 50% ;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
+#carte img{
+    margin-left: 10%;
+    width: 70%;
+    height: 600px;
+}
+.carte-lien{
+    z-index: 2;
+    width: 100%;
+}
+
 .carte-x{
     display: block;
     width: 40px;
@@ -48,34 +55,33 @@ body{
 .carte-1{
     background-color: rgba(61, 58, 58, 0.527);
     position: relative;
-    left: 63%;
-    top: 140px;
+    top: 170px;
+    right: 14vw;
 }
 .carte-2{
     background-color: rgba(241, 4, 4, 0.527);
     position: relative;
-    left: 48%;
-    top: 55px;
+    top: 150px;
+    right: 37vw;
 }
 .carte-3{
     background-color: rgba(32, 219, 32, 0.527);
     position: relative;
-    left: 50%;
-    top: 20px;
+    top: 140px;
+    right: 37vw;
 
 }
 .carte-4{
     background-color: rgba(61, 12, 240, 0.527);
     position: relative;
-    left: 35%;
-    
+    top: 160px;
+    right: 58vw;
 }
 .carte-5{
     background-color: rgba(230, 17, 230, 0.527);
     position: relative;
-    left: 41%;
-    top: 75px
-    
+    top: 274px;
+    right: 53vw;
 }
 
 
@@ -83,7 +89,7 @@ li{
     font-size: 1.2em;
 }
 
-img{
+.contenaire img{
     height: 400px;
     width: 500px;
     border: 1px solid grey;
@@ -139,4 +145,37 @@ h2{
 .contenaire h3{
     text-align: center;
     margin: 10px 0px 10px 0px;
+}
+@media screen and (max-width:1446px){
+    .carte-1{
+        background-color: rgba(61, 58, 58, 0.527);
+        position: relative;
+        top: 170px;
+        right: 15vw;
+    }
+    .carte-2{
+        background-color: rgba(241, 4, 4, 0.527);
+        position: relative;
+        top: 150px;
+        right: 38vw;
+    }
+    .carte-3{
+        background-color: rgba(32, 219, 32, 0.527);
+        position: relative;
+        top: 140px;
+        right: 38vw;
+    
+    }
+    .carte-4{
+        background-color: rgba(61, 12, 240, 0.527);
+        position: relative;
+        top: 160px;
+        right: 60vw;
+    }
+    .carte-5{
+        background-color: rgba(230, 17, 230, 0.527);
+        position: relative;
+        top: 274px;
+        right: 57vw;
+    }
 }
