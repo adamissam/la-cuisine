@@ -5,11 +5,15 @@ body {
   color: black;
   font-size:20px; 
 }
+body{
+  font-family: 'Numans', sans-serif;
+  font-size: 20px;
+}
 
 h2 {
   font-style: bold;
   margin:10px;
-  font-size:20px;
+  font-size:40px;
   text-align:center;
 }
 
@@ -21,13 +25,6 @@ aside {
   border:solid;
 
 }
-
-/*article {  
-  width: 900px;
-	margin: 20px;
-  padding:10px;
- 
-}*/
 img{
   width: 300px;
   height: 300px;
@@ -36,25 +33,37 @@ img{
 .img-3{
   text-align: center;
 }
-
-li {
-	display: inline;
-	list-style: none; 
-	margin: 10 px;
+.nav-container{
+  display: flex;
+  justify-content: center;
 }
-
-li a {
-	display: inline-block;
-	width: 150px;
-	padding: 5px 10px;
-	text-decoration: none;
-	color: #6B8E23;
-	font-weight: bold;
-	background: #0000;
-} 
+.nav-container ul{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.nav-container li{
+  margin-right: 20px;
+  font-size: 25px;
+  color: black;
+  
+}
+.nav-container li:hover{
+  font-size: 35px;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
 footer{
   background-color: black;
-  color: white;
-  height: 300px;
+  height: 100px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
 }

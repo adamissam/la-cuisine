@@ -1,6 +1,10 @@
 /**{
     /*border: 1px solid rgb(20, 20, 20);
 }*/
+body{
+    font-family: 'Numans', sans-serif;
+    font-size: 20px;
+}
 .nav-container{
     display: flex;
     justify-content: center;
@@ -86,5 +90,15 @@ h1{
     justify-content: center;
     height: 700px;
 }
-
-
+footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer a{
+    text-decoration: none;
+    color: white;
+}
