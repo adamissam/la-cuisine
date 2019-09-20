@@ -1,0 +1,51 @@
+body{
+    font-family: 'Numans', sans-serif;
+    font-size: 20px;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-container li{
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+    
+}
+.nav-container li:hover{
+    font-size: 35px;
+}
+.nav-container a{
+    text-decoration: none;
+    color:black;
+}
+h2, h3{
+    text-align: center;
+    font-size: 40px;
+}
+i{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer a{
+      text-decoration: none;
+      color: white;
+  }

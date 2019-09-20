@@ -1,0 +1,283 @@
+/*for homePage */
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-container li{
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+}
+.nav-container li:hover{
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.second-type-link{
+    display: flex;
+}
+h1{
+    color:orangered;
+    padding-top: 200px;
+    font-size: 80px;
+    text-shadow: 1px 1px 3px;
+}
+.h1{
+    text-align: center;
+    background-image: url("https://media3.s-nbcnews.com/j/newscms/2019_08/1369091/best-knife-sets-today-main-180919_b22b329329faa8d8f41a17ea1851662c.fit-2000w.jpg");
+    height: 600px;
+}
+.lien-futur{
+    width: 300px;
+    height:150px;
+    background-image: url("https://timedotcom.files.wordpress.com/2015/04/moley-robotics-automated-kitchen_lr.jpg");
+    background-size: cover;
+
+}
+.lien-monde{
+    margin-left: 10%;
+}
+.lien-page-wild{
+    width: 300px;
+    height:150px;
+    background-image: url("https://thesourcebulkfoods.com.au/wp-content/uploads/2016/04/australian-bushfoods-img3-e1529643103177.png");
+    background-size: cover;
+}
+.lien-page-wild{
+    margin-right: 10%;
+}
+.lien-monde{
+    width: 300px;
+    height:150px;
+    background-image: url("https://www.1cover.com.au/assets/World's%20Weirdest%20Foods_OG.png");
+    background-size: cover;
+
+}
+.lien-futur{
+    align-self: flex-end;
+}
+
+.second-type-link a{
+    padding-top: 150px;
+    color: rgb(146, 245, 240);
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(0,0,0, 0.2);
+    border-radius: 5%;
+}
+.second-type-link{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+/* wild cuisine */
+h2, h3{
+    text-align: center;
+}
+i{
+    font-style: normal;
+    font-weight: bold;
+}
+img{
+    text-align: center;
+}
+/* cuisine monde */
+.nav-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-container li{
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+    
+}
+.nav-container li:hover{
+    font-size: 35px;
+}
+.nav-container a{
+    text-decoration: none;
+    color:black;
+}
+#carte{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#carte img{
+    margin-left: 10%;
+    width: 70%;
+    height: 600px;
+}
+.carte-lien{
+    z-index: 2;
+    width: 100%;
+}
+
+.carte-x{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.carte-1{
+    background-color: rgba(61, 58, 58, 0.527);
+    position: relative;
+    top: 170px;
+    right: 14vw;
+}
+.carte-2{
+    background-color: rgba(241, 4, 4, 0.527);
+    position: relative;
+    top: 150px;
+    right: 37vw;
+}
+.carte-3{
+    background-color: rgba(32, 219, 32, 0.527);
+    position: relative;
+    top: 140px;
+    right: 37vw;
+
+}
+.carte-4{
+    background-color: rgba(61, 12, 240, 0.527);
+    position: relative;
+    top: 160px;
+    right: 58vw;
+}
+.carte-5{
+    background-color: rgba(230, 17, 230, 0.527);
+    position: relative;
+    top: 274px;
+    right: 53vw;
+}
+
+
+li{
+    font-size: 1.2em;
+}
+
+.contenaire img{
+    height: 400px;
+    width: 500px;
+    border: 1px solid grey;
+}
+.init{
+    display: flex;
+    justify-content: center;
+}
+.init ul{
+    list-style: none;
+
+}
+.init-x{
+    display: flex;
+    justify-content: center;
+}
+.init-x ul{
+    list-style: none;
+}
+
+.ingredients{
+    align-self: center;
+    margin-left: 1%;
+}
+.ingredients-x{
+    align-self: center;
+    margin-left: 1%;
+    display: flex;
+}
+.ingredients-x02{
+    margin-left: 1%;
+}
+.recette{
+    display:flex;
+    justify-content: space-around;
+}
+.recette-demi-1{
+    margin: 10px 40px 10px 40px;
+    width: 50%;
+}
+.recette-demi-2{
+    width: 50%;
+    margin: 10px 10px 10px 10px;
+}
+.recette-y{
+    margin-left: 2%;
+}
+h2{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+
+}
+.contenaire h3{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+/* cuisine futur */
+aside {
+    float: right;
+      width: 300px;
+      margin: 20px;
+    padding:10px;
+    border:solid;
+  
+  }
+  .img-3{
+    text-align: center;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+  }
+  @media screen and (max-width:1446px){
+    .carte-1{
+        background-color: rgba(61, 58, 58, 0.527);
+        position: relative;
+        top: 170px;
+        right: 15vw;
+    }
+    .carte-2{
+        background-color: rgba(241, 4, 4, 0.527);
+        position: relative;
+        top: 150px;
+        right: 38vw;
+    }
+    .carte-3{
+        background-color: rgba(32, 219, 32, 0.527);
+        position: relative;
+        top: 140px;
+        right: 38vw;
+    
+    }
+    .carte-4{
+        background-color: rgba(61, 12, 240, 0.527);
+        position: relative;
+        top: 160px;
+        right: 60vw;
+    }
+    .carte-5{
+        background-color: rgba(230, 17, 230, 0.527);
+        position: relative;
+        top: 274px;
+        right: 57vw;
+    }
+}
