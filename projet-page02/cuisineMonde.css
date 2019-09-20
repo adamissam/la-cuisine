@@ -1,0 +1,142 @@
+body{
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid rgba(128, 128, 128, 0.74);
+}
+*{
+    margin:0px;
+    padding:0px;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-container li{
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+    
+}
+.nav-container li:hover{
+    font-size: 35px;
+}
+.nav-container a{
+    text-decoration: none;
+    color:black;
+}
+#carte{
+    background-image: url("https://www.ledindon.com/photos/8819/zoom-8819-04.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    margin-bottom: 50px;
+}
+.carte-x{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.carte-1{
+    background-color: rgba(61, 58, 58, 0.527);
+    position: relative;
+    left: 63%;
+    top: 140px;
+}
+.carte-2{
+    background-color: rgba(241, 4, 4, 0.527);
+    position: relative;
+    left: 48%;
+    top: 55px;
+}
+.carte-3{
+    background-color: rgba(32, 219, 32, 0.527);
+    position: relative;
+    left: 50%;
+    top: 20px;
+
+}
+.carte-4{
+    background-color: rgba(61, 12, 240, 0.527);
+    position: relative;
+    left: 35%;
+    
+}
+.carte-5{
+    background-color: rgba(230, 17, 230, 0.527);
+    position: relative;
+    left: 41%;
+    top: 75px
+    
+}
+
+
+li{
+    font-size: 1.2em;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+    border: 1px solid grey;
+}
+.init{
+    display: flex;
+    justify-content: center;
+}
+.init ul{
+    list-style: none;
+
+}
+.init-x{
+    display: flex;
+    justify-content: center;
+}
+.init-x ul{
+    list-style: none;
+}
+
+.ingredients{
+    align-self: center;
+    margin-left: 1%;
+}
+.ingredients-x{
+    align-self: center;
+    margin-left: 1%;
+    display: flex;
+}
+.ingredients-x02{
+    margin-left: 1%;
+}
+.recette{
+    display:flex;
+    justify-content: space-around;
+}
+.recette-demi-1{
+    margin: 10px 40px 10px 40px;
+    width: 50%;
+}
+.recette-demi-2{
+    width: 50%;
+    margin: 10px 10px 10px 10px;
+}
+.recette-y{
+    margin-left: 2%;
+}
+h2{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+
+}
+.contenaire h3{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}

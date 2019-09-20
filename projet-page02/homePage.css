@@ -1,0 +1,90 @@
+/**{
+    /*border: 1px solid rgb(20, 20, 20);
+}*/
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-container li{
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+    
+}
+.nav-container li:hover{
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.second-type-link{
+    display: flex;
+
+}
+h1{
+    color:orangered;
+    padding-top: 200px;
+    font-size: 80px;
+    text-shadow: 1px 1px 3px;
+}
+.h1{
+    text-align: center;
+    background-image: url("https://media3.s-nbcnews.com/j/newscms/2019_08/1369091/best-knife-sets-today-main-180919_b22b329329faa8d8f41a17ea1851662c.fit-2000w.jpg");
+    height: 600px;
+}
+.lien-futur{
+    width: 300px;
+    height:150px;
+    background-image: url("https://timedotcom.files.wordpress.com/2015/04/moley-robotics-automated-kitchen_lr.jpg");
+    background-size: cover;
+
+}
+.lien-monde{
+    margin-left: 10%;
+}
+.lien-page-wild{
+    width: 300px;
+    height:150px;
+    background-image: url("https://thesourcebulkfoods.com.au/wp-content/uploads/2016/04/australian-bushfoods-img3-e1529643103177.png");
+    background-size: cover;
+
+
+}
+.lien-page-wild{
+    margin-right: 10%;
+}
+.lien-monde{
+    width: 300px;
+    height:150px;
+    background-image: url("https://www.1cover.com.au/assets/World's%20Weirdest%20Foods_OG.png");
+    background-size: cover;
+
+}
+.lien-futur{
+    align-self: flex-end;
+}
+
+.second-type-link a{
+    padding-top: 150px;
+    color: rgb(146, 245, 240);
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(0,0,0, 0.2);
+    border-radius: 5%;
+}
+.second-type-link{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+
